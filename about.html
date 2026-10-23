@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Наша команда разработчиков</title>
+    <style>
+        /* Немного красоты, чтобы страница выглядела опрятно */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .developer-card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+            .developer-card img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%; /* Делает фото круглым */
+                object-fit: cover; /* Чтобы фото не плющилось */
+                margin-bottom: 15px;
+                background-color: #eee; /* Заглушка, если картинка не найдена */
+            }
+
+            .developer-card h3 {
+                margin: 0 0 10px 0;
+                color: #0056b3;
+            }
+
+            .developer-card p {
+                margin: 5px 0;
+                color: #555;
+            }
+    </style>
+</head>
+<body>
+
+    <h1>Наши разработчики</h1>
+
+    <div class="team-container">
+
+        <!-- Карточка 1: Максим -->
+        <div class="developer-card">
+            <!-- Вставьте имена ваших файлов с фото на место maksim.jpg -->
+            <img src="maksim.jpg" alt="Фото Максима">
+            <h3>Парадня Максим Артурович</h3>
+            <p><strong>Возраст:</strong> 18 лет</p>
+        </div>
+
+        <!-- Карточка 2: Алексей -->
+        <div class="developer-card">
+            <img src="alexey.jpg" alt="Фото Алексея">
+            <h3>Стукан Алексей Александрович</h3>
+            <p><strong>Возраст:</strong> 17 лет</p>
+        </div>
+
+        <!-- Карточка 3: Савелий -->
+        <div class="developer-card">
+            <img src="saveliy.jpg" alt="Фото Савелия">
+            <h3>Войтович Савелий Андреевич</h3>
+            <p><strong>Возраст:</strong> 18 лет</p>
+        </div>
+
+        <!-- Карточка 4: Никита -->
+        <div class="developer-card">
+            <img src="nikita.jpg" alt="Фото Никиты">
+            <h3>Сташкевич Никита Николаевич</h3>
+            <p><strong>Возраст:</strong> 18 лет</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
