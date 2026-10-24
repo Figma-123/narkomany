@@ -28,6 +28,12 @@
             padding-bottom: 10px;
         }
 
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-top: 30px;
+        }
+
         .contact-item {
             margin: 20px 0;
             font-size: 18px;
@@ -48,6 +54,38 @@
             a:hover {
                 color: #4a90e2;
                 text-decoration: underline;
+            }
+
+        /* Карточки разработчиков */
+        .developers {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .developer-card {
+            background: #fafafa;
+            border: 1px solid #ddd;
+            border-left: 4px solid #4a90e2;
+            border-radius: 8px;
+            padding: 15px 20px;
+        }
+
+            .developer-card h3 {
+                margin: 0 0 10px 0;
+                color: #0056b3;
+                font-size: 18px;
+            }
+
+            .developer-card p {
+                margin: 5px 0;
+                font-size: 16px;
+            }
+
+            .developer-card .label {
+                min-width: 110px;
+                color: #4a90e2;
             }
 
         /* Стили для футера */
@@ -77,6 +115,64 @@
         <div class="contact-item">
             <span class="label">Телефон:</span>
             <a href="tel:+375291234567">+375 (29) 123-45-67</a>
+        </div>
+
+        <h2>Разработчики</h2>
+
+        <div class="developers">
+
+            <!-- Парадня Максим -->
+            <div class="developer-card">
+                <h3>Парадня Максим Артурович</h3>
+                <p>
+                    <span class="label">Телефон:</span>
+                    <a href="tel:+375259051981">+375 (25) 905-19-81</a>
+                </p>
+                <p>
+                    <span class="label">Telegram:</span>
+                    <a href="https://t.me/maxon4ik" target="_blank">@maxon4ik</a>
+                </p>
+            </div>
+
+            <!-- Стукан Алексей -->
+            <div class="developer-card">
+                <h3>Стукан Алексей Александрович</h3>
+                <p>
+                    <span class="label">Телефон:</span>
+                    <a href="tel:+375296540567">+375 (29) 654-05-67</a>
+                </p>
+                <p>
+                    <span class="label">Telegram:</span>
+                    <a href="https://t.me/hshshshshs" target="_blank">@hshshshshs</a>
+                </p>
+            </div>
+
+            <!-- Войтович Савелий -->
+            <div class="developer-card">
+                <h3>Войтович Савелий Андреевич</h3>
+                <p>
+                    <span class="label">Телефон:</span>
+                    <a href="tel:+375336036744">+375 (33) 603-67-44</a>
+                </p>
+                <p>
+                    <span class="label">Telegram:</span>
+                    <a href="https://t.me/Savakazan" target="_blank">@Savakazan</a>
+                </p>
+            </div>
+
+            <!-- Сташкевич Никита -->
+            <div class="developer-card">
+                <h3>Сташкевич Никита Николаевич</h3>
+                <p>
+                    <span class="label">Телефон:</span>
+                    <a href="tel:+375295910458">+375 (29) 591-04-58</a>
+                </p>
+                <p>
+                    <span class="label">Telegram:</span>
+                    <a href="https://t.me/Cook1es" target="_blank">@Cook1es</a>
+                </p>
+            </div>
+
         </div>
     </div>
 
