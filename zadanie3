@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О колледже</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        #about {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #about h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        #about p {
+            color: #333333;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="about">
+        <h2>О нашем колледже</h2>
+        <p>
+            Наш колледж — это современное учебное заведение, которое готовит
+            квалифицированных специалистов по востребованным направлениям.
+            Здесь работают опытные преподаватели, а учебные аудитории оснащены
+            современным оборудованием. Студенты получают не только теоретические
+            знания, но и проходят практику на профильных предприятиях.
+            Колледж гордится своими выпускниками и создаёт все условия для
+            развития творческих и профессиональных способностей каждого студента.
+        </p>
+    </div>
+
+</body>
+</html>
